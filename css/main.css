@@ -1,0 +1,55 @@
+/*=======Dev Rules========*/
+body {
+  width: 100vw; }
+
+#calculator-body {
+  margin: 40px auto 0px; }
+
+#calculator-body {
+  background: RGBA(141, 134, 155, 0.8);
+  height: 600px;
+  width: 400px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; }
+
+#calculator-display {
+  height: 140px; }
+  #calculator-display p#display {
+    color: #fff;
+    font-size: 7em;
+    padding-right: 1px;
+    padding-left: 1px;
+    text-align: right;
+    width: 100%; }
+
+button {
+  width: 25%;
+  height: 100px;
+  float: left;
+  border-width: 1px;
+  transition: background-color .2s; }
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 300; }
+  .btn:focus {
+    outline: none; }
+
+.btn-double {
+  width: 50%; }
+
+.btn-num {
+  background-color: #E0E0E0; }
+  .btn-num:hover {
+    background-color: white; }
+
+.btn-op {
+  background-color: #F9933D; }
+  .btn-op:hover {
+    background-color: #fccaa0; }
+
+.btn-char {
+  background-color: #D6D6D6; }
+  .btn-char:hover {
+    background-color: white; }
