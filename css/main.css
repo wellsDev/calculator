@@ -1,9 +1,11 @@
 /*=======Dev Rules========*/
 body {
-  width: 100vw; }
+  width: 100vw;
+    width--webkit-font-smoothing: antialiased;
+    width--moz-osx-font-smoothing: grayscale; }
 
 #calculator-body {
-  margin: 40px auto 0px; }
+  margin: 0px auto 0px; }
 
 #calculator-body {
   background: RGBA(141, 134, 155, 0.8);
