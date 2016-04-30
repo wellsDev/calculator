@@ -7,6 +7,9 @@ body {
 #calculator-body {
   margin: 0px auto 0px; }
 
+p {
+  margin-top: 1px; }
+
 #calculator-body {
   background: RGBA(141, 134, 155, 0.8);
   height: 600px;
@@ -16,13 +19,14 @@ body {
 
 #calculator-display {
   height: 140px; }
-  #calculator-display p#display {
-    color: #fff;
-    font-size: 7em;
-    padding-right: 1px;
-    padding-left: 1px;
-    text-align: right;
-    width: 100%; }
+
+p#display {
+  color: #fff;
+  font-size: 7em;
+  padding-right: 1px;
+  padding-left: 1px;
+  text-align: right;
+  width: 100%; }
 
 button {
   width: 25%;
@@ -46,9 +50,11 @@ button {
   .btn-num:hover {
     background-color: white; }
 
-.btn-op {
+.btn-op,
+.btn-equal {
   background-color: #F9933D; }
-  .btn-op:hover {
+  .btn-op:hover,
+  .btn-equal:hover {
     background-color: #fccaa0; }
 
 .btn-char {
